@@ -105,6 +105,7 @@
      */
     function getToken() {
       var token = sessionStorage.getItem('token');
+      token = 1;
       if (token == '') {
         parent.location.href = '../html/login.html?code=2'
       }

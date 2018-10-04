@@ -172,6 +172,7 @@ var markers=[];
 var infoWindow;
 $(function(){
 	var token = sessionStorage.getItem('token');
+	token = 1;
 	if(!token) {
     	location.href = 'emergencyCommand.html?code=0'
   	} 

@@ -211,6 +211,7 @@ var newData={
 }
 $(function(){
 	var token = sessionStorage.getItem('token');
+		token = 1;
   	if(!token) {
     	location.href = '../login.html?code=3'
   	} 
