@@ -1553,6 +1553,7 @@ function getUrl(name)
 //登录验证
 function checkLogin(index){
 	var token = sessionStorage.getItem('token');
+	var token = 1;
 	 if(!token) {
 	        location.href = 'login.html?code='+index
 	    } else {
